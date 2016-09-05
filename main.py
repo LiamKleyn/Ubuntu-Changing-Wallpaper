@@ -11,10 +11,7 @@ if custom == 'N':
     userreswidth = raw_input("Please enter your resolution width: ")
     userresheight = raw_input("Please enter your resolution height: ")
 
-    usertime = raw_input("Please enter background change intervals in minutes: ")
-
     print ("Resolution is,", userreswidth, userresheight)
-    print ("Interval is,", usertime)
 
 else:
     print 'If you have 2 monitors, will automatically take the biggest one\'s resolution!'
